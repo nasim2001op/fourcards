@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 98%);
+}
+.div {
+    height: 250px;
+    width: 350px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.div-2 {
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div-1 {
+    border-radius: 10px;
+    border-top:5px solid  hsl(180, 62%, 55%);
+    padding: 20px;
+}
+.div-1 p{
+    margin-top: 5px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.9em;
+    margin-bottom: 50px;
+}
+.div-1 svg {
+    margin-left: 225px;
+}
+.div-2a {
+    border-radius: 10px;
+    border-top: 5px solid  hsl(0, 78%, 62%);
+    padding:20px;
+}
+.div-2a p {
+    margin-top: 5px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.9em;
+    margin-bottom: 50px;
+}
+.div-2a svg {
+    margin-left: 225px;
+}
+.div-2b {
+    border-radius: 10px;
+    border-top: 5px solid  hsl(34, 97%, 64%);
+    padding:20px;  
+}
+.div-2b p {
+    margin-top: 5px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.9em;
+    margin-bottom: 50px;
+}
+.div-2b svg {
+        margin-left: 225px;
+}
+.div-3 {
+    border-radius: 10px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    padding:20px;
+}
+.div-3 p{
+    margin-top: 5px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.9em;
+    margin-bottom: 50px;
+}
+.div-3 svg {
+    margin-left: 225px;
+}
+.heading {
+    font-weight: 300;
+}
+.content { 
+    text-align:center ;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.heading-2{
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 5px;
+}
